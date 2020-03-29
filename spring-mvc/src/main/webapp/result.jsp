@@ -3,7 +3,7 @@
 <body>
 	<h3>Data-Entry-Form</h3>
 	<hr>
-	${student} -> ${result}
+	${student} -> ${result} OMG
 	<hr>
 </body>
 </html>

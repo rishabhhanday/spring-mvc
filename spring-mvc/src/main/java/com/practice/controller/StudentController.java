@@ -14,7 +14,7 @@ public class StudentController {
 
     @RequestMapping("result")
     public ModelAndView findResult(Student student) {
-        ModelAndView modelAndView = new ModelAndView("result.jsp");
+        ModelAndView modelAndView = new ModelAndView("result");
         String studentResult = result.getResult(student.getMarks());
         modelAndView.addObject("result", studentResult);
         modelAndView.addObject("student", student);
